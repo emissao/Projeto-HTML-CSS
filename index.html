@@ -8,6 +8,158 @@
     <link rel="shortcut icon" href="Ícones/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style/style.css">
 </head>
+<style>
+   
+    @font-face {
+        font-family: 'one piece';
+        src: url('../Fontes/one\ piece\ font.ttf') format(opentype);
+        font-weight: normal;
+        font-size: 20px;
+    }
+    :root{
+        --cor0: #632F24;
+        --cor1: #E8A799;
+        --cor2: #E36C52;
+        --cor3: #662617;
+        --cor4: #B0543F;
+        
+        --fonte-padrao: arial, Verdana, Helvetica, sans-serif;
+        --fonte-onepiece: 'one piece', Times;
+    }
+    *{
+        margin: 0px;
+        padding: 0px;   
+    }
+    img{
+        width: 40%;
+        
+    }
+    body{ 
+        background-color: #E8A799;
+        font-family: var(--fonte-onepiece)
+    }
+
+    header{
+        background-image: linear-gradient(to bottom, darkblue, lightblue);
+        color: white;    
+        min-height: 150px;
+        text-align: center;
+        padding-top: 40px;
+        margin-bottom: 5px;
+        font-size: 1em;
+    }
+    header  h1{
+        font-size: 3em;
+        text-shadow: 2px 2px 0px black
+        
+    }
+    header h2{
+        font-size: 1em;
+        margin-bottom: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+        text-shadow: 2px 2px 0px black
+    }
+    nav{ 
+        color:black;
+        background-color: blue;   
+        padding: 10px;
+        box-shadow: 0px 9px 9px rgba(0, 0, 0, 0.61);
+        margin-bottom: 7px;
+        text-align: center;
+    }
+    nav > a {
+        color: white;
+        padding: 10px;
+        text-decoration: none;
+        font-weight: bold;
+        transition-duration: .5s;
+    }
+    nav > a:hover{
+        background-color: red;
+    }
+    main{
+        min-width: 300px;
+        max-width: 1000px;
+        margin: auto;
+        background-color: white;
+        padding: 20px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.623);
+        margin-bottom: 20px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+    main h1{
+        font-family: var(--fonte-onepiece);
+        color: red;
+    }
+    div.video{
+        background-color: red;
+        margin: 30px;
+        margin: 0px -20;
+        padding: 20px;
+        position: relative;
+        padding-bottom: 50%;
+    }
+    div.video > iframe{
+        position: absolute;
+        top:5%;
+        left: 5%;
+        width: 90%;
+        height: 90%;
+        
+    }
+    footer{
+        background-color: darkblue;
+        color: white;
+        font-weight: bold;
+        text-align: center;
+    }
+    aside{
+        background-image: linear-gradient(aquamarine, lightblue);
+        padding: 10px 10px;
+        text-align: center;
+        border-radius: 10px;
+        box-shadow: 3px 3px 8px black
+    }
+    aside > ul{
+        list-style-position: inside;
+        text-align: justify;
+        list-style-type: '\2714\00A0';
+    }
+        
+    h3{
+        background-color: rgba(0, 0, 255, 0.349);
+        color: white;
+        padding: 10px;
+        margin: -10px -10px 0px -10px;
+        border-radius: 10px 10px 0px 0px;
+        font-weight: bold;
+    }
+    p { 
+        margin: 15px 0px;
+        text-align: justify;
+        text-indent: 30px;
+        line-height: 2em;
+        font-size: 1.1em;
+    }
+    main strong{
+        font-weight: bold;
+        padding: 2px;
+        color: blue;   
+    }
+    main a{
+        text-decoration: none;
+        font-weight: bold;
+        background-color: lightblue;
+        padding: 2px 6px;
+        color: #662617;
+    }
+    main a:hover{
+        text-decoration: underline;
+        color: red;
+    }
+</style>
 <body>
     <Header> <h1> One Piece <h1>
         <h2>Conheça a obra japonesa que é considerada perfeita pelos seus leitores.</h2>
